@@ -1,0 +1,932 @@
+#website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 218, 185, 0.562);
+
+    #nav_bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 300px;
+
+      img {
+        height: 30px;
+        width: 100px;
+      }
+
+      #bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      button {
+        background-color: orangered;
+        color: white;
+        border-radius: 10px;
+        font-size: 30px;
+        border: none;
+      }
+    }
+
+    #about {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      #description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        h1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 60px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: start;
+          font-weight: normal;
+        }
+
+        #content {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 30px;
+
+          button {
+            background-color: orangered;
+            color: white;
+            border-radius: 10px;
+            font-size: 30px;
+            border: none;
+          }
+
+          #b1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            background-color: white;
+          }
+        }
+
+        #text {
+          background-color: white;
+          color: black;
+          background-color: 2px black solid;
+        }
+      }
+
+      #a1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        #images {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            border: 2px white solid;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: -15px;
+          }
+        }
+
+        #txt {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-align: start;
+
+          p {
+            font-size: 20px;
+
+            b {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #concept {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    #c1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: gray;
+    }
+
+    #logoes {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 150px;
+
+      img {
+        height: 50px;
+        width: 100px;
+
+      }
+    }
+  }
+
+  #main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5px 100px;
+
+    #m3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 0px 100px;
+    }
+
+    #m4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      font-size: 30px;
+      padding: 0px 100px;
+    }
+  }
+
+  #app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #spinach {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 200px;
+  
+      #matter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+        padding: 20px 80px;
+        #div1 {
+          font-size: 60px;
+          color: grey;
+          font-weight: bold;
+        }
+  
+        #div2 {
+          font-size: 30px;
+          font-weight: bold;
+        }
+  
+        #div3 {
+          font-size: 25px;
+          color: black;
+        }
+      }
+  
+      #pic1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* height:300px;
+        width:500px; */
+        border: 2px black solid;
+        background: radial-gradient( orange 50%, orange 50%);
+        border-radius: 50%;
+        height: 250px;
+        width:550px;  
+        /* border: 2px black solid; */ 
+         
+         img{ 
+          height: 200px;
+          width: 200px; 
+         } 
+        
+      }
+    }
+  }
+
+  #weekly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+    gap: 40px;
+
+    #pic2 {
+      background: radial-gradient(darksalmond 50%,darksalmond 50%);
+      padding: 50px;
+    }
+
+    #matter1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 30px;
+
+      #m3 {
+        font-size: 60px;
+        color: grey;
+        font-weight: bold;
+      }
+
+      #m4 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      #m5 {
+        font-size: 25px;
+        color: black;
+      }
+    }
+  }
+
+  #time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+    gap: 40px;
+
+    #matter2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 30px;
+
+      #m6 {
+        font-size: 60px;
+        color: grey;
+        font-weight: bold;
+      }
+
+      #m7 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      #m8 {
+        font-size: 25px;
+        color: black;
+      }
+    }
+
+    #pic3 {
+      background: radial-gradient(darksalmond 50%,darksalmond);
+      padding: 50px;
+    }
+  }
+
+
+  #about4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #p {
+      color: rgba(165, 42, 42, 0.882);
+      font-size: 20px;
+    }
+
+    #h1 {
+      font-size: 45px;
+      font-weight: bold;
+    }
+  }
+
+  #about5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: rgba(245, 245, 245, 0.159);
+
+    #vegetarians {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+
+      #vegetarian1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: white;
+
+        img {
+          height: 250px;
+          width: 100%;
+          border-radius: 20px;
+        }
+
+        #box1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          gap: 10px;
+
+          #veg1 {
+            background-color: rgba(0, 128, 0, 0.51);
+            border-radius: 50px;
+            font-size: 20px;
+          }
+
+          #japanese {
+            font-size: 30px;
+            font-weight: bold;
+          }
+
+          #calories {
+            font-size: 20px;
+          }
+
+          #nutri {
+            font-size: 20px;
+          }
+
+          #rating {
+            font-size: 20px;
+          }
+        }
+      }
+
+      #vegetarian2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: white;
+
+        img {
+          height: 250px;
+          width: 100%;
+          border-radius: 20px;
+        }
+
+        #box2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          gap: 10px;
+
+          #veg2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            gap: 10px;
+
+            #vegan {
+              background-color: rgba(0, 128, 0, 0.512);
+              border-radius: 50px;
+              font-size: 20px;
+            }
+
+            #paleo {
+              background-color: rgba(255, 166, 0, 0.574);
+              border-radius: 50px;
+              font-weight: 20px;
+            }
+          }
+
+          #avocado {
+            font-size: 30px;
+            font-weight: bold;
+          }
+
+          #calories {
+            font-size: 20px;
+          }
+
+          #nutri {
+            font-size: 20px;
+          }
+
+          #rating {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    #works {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 18px;
+      font-size: 20px;
+
+    }
+  }
+
+  #recepie {
+    color: orangered;
+    font-size: 20px;
+  }
+
+  #about6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    background-color: rgba(255, 218, 185, 0.562);
+
+    #tests {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 60px;
+
+      #test {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 50px;
+
+        #test1 {
+          font-size: 20px;
+          color: rgba(165, 42, 42, 0.552);
+          gap: 20px;
+        }
+
+        #try {
+          font-size: 40px;
+          font-weight: bold;
+        }
+      }
+
+      #healthy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+      }
+
+      #algorithm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+
+        img {
+          height: 80px;
+          width: 80px;
+          border-radius: 50px;
+        }
+
+        #description {
+          font-size: 17px;
+          color: grey;
+        }
+
+        #name {
+          color: rgba(128, 128, 128, 0.59);
+          font-size: 15px;
+        }
+      }
+    }
+
+    #pictures {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
+    img:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  #about7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+
+    #lin {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 15px;
+      width: 1200px;
+
+      #pricing {
+        color: brown;
+        font-size: 30px;
+      }
+
+      #eating {
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  #cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+    #card1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 2px rgba(165, 42, 42, 0.44) solid;
+      gap: 20px;
+      border-radius: 10px;
+      padding: 30px 40px;
+
+      #starter {
+        font-size: 20px;
+        color: rgba(165, 42, 42, 0.808);
+      }
+
+      #price {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        #h6 {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: end;
+          font-size: 20px;
+        }
+
+        #h1 {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+          font-weight: bold;
+        }
+      }
+
+      #meal {
+        font-size: 20px;
+        color: rgba(128, 128, 128, 0.867);
+      }
+
+      #meals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        font-size: 20px;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+        #meal1 {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          font-size: 20px;
+        }
+
+        #order {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
+        #delivery {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
+        #empty {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      #start {
+        background-color: orangered;
+        color: white;
+        font-size: 30px;
+        border: none;
+        gap: 20px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  #para {
+    font-size: 20px;
+    padding-right: 300px;
+  }
+
+  #cook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    gap: 30px;
+
+    #cook1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      gap: 30px;
+
+      #div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: start;
+      }
+
+      img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+
+  #login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 70px;
+    background: rgba(210, 105, 30, 0.999);
+    border-radius: 20px;
+    gap: 20px;
+
+    #login-details {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      gap: 20px;
+
+      #login-about {
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      #login-content {
+        font-size: 20px;
+        width: 600px;
+      }
+
+      #login-mix1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        #login1 {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          gap: 10px;
+
+          label {
+            font-size: 15px;
+          }
+
+          #name {
+            font-size: 17px;
+            padding: 7px 40px;
+            background-color: white;
+            border-radius: 5px;
+          }
+
+          #email {
+            font-size: 15px;
+            padding: 7px 25px;
+            background-color: white;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      #login-mix2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        #login2 {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          gap: 10px;
+
+          label {
+            font-size: 15px;
+          }
+
+          #checkbox {
+            padding: 7px 25px;
+            border-radius: 10px;
+            font-size: 10px;
+          }
+        }
+
+        #login3 {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          gap: 5px;
+
+          #signup {
+            font-size: 10px;
+            padding: 7px 75px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+          }
+
+        }
+
+      }
+
+    }
+     #login-img{
+        height:400px;
+        width: 400px;
+        align-items: end;
+      }
+
+    }
+    
+    }
+     #end{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 30px;
+          padding: 110px;
+          #food{
+              display: flex;
+              flex-direction: column;
+              align-items: start;
+              justify-content: center; 
+              gap: 20px;
+              margin-bottom: 110px;
+          }
+          #us{
+            margin-bottom: 90px;
+            #us1{
+              font-weight: bold;
+              font-size: 20px;
+            }
+            p{
+              color: grey;
+            }
+          }
+          #ac{
+            margin-bottom: 40px;
+            #us1{
+              font-weight: bold;
+              font-size: 20px;
+            }
+            p{
+              color: grey;
+            }
+          }
+          #cop{
+            margin-bottom: 70px;
+            #us1{
+              font-weight: bold;
+              font-size: 20px;
+            }
+            p{
+              color: grey;
+            }
+          }
+          #re{
+            margin-bottom: 70px;
+            #us1{
+              font-weight: bold;
+              font-size: 20px;
+            }
+            p{
+              color: grey;
+            }
+          }
+        }
+      
+}
+
